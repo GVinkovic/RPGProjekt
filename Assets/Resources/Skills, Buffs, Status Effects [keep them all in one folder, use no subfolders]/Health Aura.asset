@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7026adff7b4499942862e1dc3edad91c, type: 3}
+  m_Name: Health Aura
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  toolTip: '<b>{NAME} Lvl {LEVEL}</b>
+
+    Increases maximum health for a while.
+
+
+    Cast Time: {CASTTIME}
+
+    Cooldown: {COOLDOWN}
+
+    Buff Time: {BUFFTIME}
+
+    Buffs max Health: {BONUSHEALTHMAX}
+
+    Mana Costs: {MANACOSTS}'
+  image: {fileID: 21300000, guid: 07bc2f3d4fcdb4e2e8e6cefc05e6f66f, type: 3}
+  learnDefault: 0
+  showCastBar: 1
+  cancelCastIfTargetDied: 1
+  predecessor: {fileID: 0}
+  predecessorLevel: 1
+  requiresWeapon: 1
+  requiredLevel:
+    baseValue: 1
+    bonusPerLevel: 1
+  requiredSkillExperience:
+    baseValue: 2
+    bonusPerLevel: 2
+  maxLevel: 2
+  manaCosts:
+    baseValue: 20
+    bonusPerLevel: 0
+  castTime:
+    baseValue: 3
+    bonusPerLevel: 0
+  cooldown:
+    baseValue: 10
+    bonusPerLevel: 0
+  castRange:
+    baseValue: 10
+    bonusPerLevel: 0
+  castSound: {fileID: 0}
+  bonusHealthMax:
+    baseValue: 50
+    bonusPerLevel: 10
+  bonusManaMax:
+    baseValue: 0
+    bonusPerLevel: 0
+  bonusDamage:
+    baseValue: 0
+    bonusPerLevel: 0
+  bonusDefense:
+    baseValue: 0
+    bonusPerLevel: 0
+  bonusBlockChance:
+    baseValue: 0
+    bonusPerLevel: 0
+  bonusCriticalChance:
+    baseValue: 0
+    bonusPerLevel: 0
+  bonusHealthPercentPerSecond:
+    baseValue: 0
+    bonusPerLevel: 0
+  bonusManaPercentPerSecond:
+    baseValue: 0
+    bonusPerLevel: 0
+  bonusSpeed:
+    baseValue: 0
+    bonusPerLevel: 0
+  buffTime:
+    baseValue: 60
+    bonusPerLevel: 0
+  effect: {fileID: 114378660796971398, guid: 69744a7cf6a05914c92a7847ecd00005, type: 2}
+  canBuffSelf: 1
+  canBuffOthers: 0
+  canBuffEnemies: 0

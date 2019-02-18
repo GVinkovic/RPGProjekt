@@ -2029,7 +2029,7 @@ MonoBehaviour:
     baseValue: 1
     bonusPerLevel: 0
   _damage:
-    baseValue: 30
+    baseValue: 10
     bonusPerLevel: 0
   _defense:
     baseValue: 10
@@ -2059,12 +2059,18 @@ MonoBehaviour:
   attackToMoveRangeRatio: 0.8
   rewardExperience: 10
   rewardSkillExperience: 2
-  lootGoldMin: 0
-  lootGoldMax: 10
-  dropChances: []
+  lootGoldMin: 5
+  lootGoldMax: 20
+  dropChances:
+  - item: {fileID: 11400000, guid: b7fce2cccf82e234b8256e41e133bf3c, type: 2}
+    probability: 0.5
+  - item: {fileID: 11400000, guid: bacd5a4bdc6cd8c4fb1a110fe6ed758f, type: 2}
+    probability: 0.5
+  - item: {fileID: 11400000, guid: c4c8334c48fe6354494bf41565c1eb6a, type: 2}
+    probability: 0.5
   deathTime: 30
   respawn: 1
-  respawnTime: 10
+  respawnTime: 20
 --- !u!114 &114583076045750784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2076,7 +2082,7 @@ MonoBehaviour:
   m_Script: {fileID: -2084202205, guid: 1f82cede440b8483ba106133169d4112, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visRange: 10
+  visRange: 50
   visUpdateInterval: 1
   checkMethod: 0
   forceHidden: 0

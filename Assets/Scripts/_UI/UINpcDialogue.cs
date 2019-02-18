@@ -38,15 +38,6 @@ public partial class UINpcDialogue : MonoBehaviour
                 panel.SetActive(false);
             });
 
-            /*
-            // teleport button
-            teleportButton.gameObject.SetActive(npc.teleportTo != null);
-            if (npc.teleportTo != null)
-                teleportButton.GetComponentInChildren<Text>().text = "Teleport: " + npc.teleportTo.name;
-            teleportButton.onClick.SetListener(() => {
-                player.CmdNpcTeleport();
-            });
-            */
 
             // filter out the quests that are available for the player
             List<ScriptableQuest> questsAvailable = npc.QuestsVisibleFor(player);

@@ -15,10 +15,7 @@
 // The class also takes care of selection handling, which detects 3D world
 // clicks and then targets/navigates somewhere/interacts with someone.
 //
-// Animations are not handled by the NetworkAnimator because it's still very
-// buggy and because it can't really react to movement stops fast enough, which
-// results in moonwalking. Not synchronizing animations over the network will
-// also save us bandwidth
+
 using UnityEngine;
 using UnityEngine.AI;
 using Mirror;

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a77bb196fe72741897f250015e2ee8, type: 3}
+  m_Name: Cleaver
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  buyPrice: 50
+  sellPrice: 5
+  itemMallPrice: 0
+  sellable: 1
+  destroyable: 1
+  toolTip: '<b>{NAME}</b>
+
+    A strong cleaver.
+
+
+    {DAMAGEBONUS} Damage
+
+    Destroyable: {DESTROYABLE}
+
+    Sellable: {SELLABLE}
+
+    Required Level: {MINLEVEL}
+
+
+    Amount: {AMOUNT}
+
+    Price: {BUYPRICE} Gold
+
+    <i>Sells for: {SELLPRICE} Gold</i>'
+  image: {fileID: 21300000, guid: 6240885ec6da7478b9c359712b5d3bda, type: 3}
+  minLevel: 1
+  cooldownBuff: {fileID: 0}
+  category: WeaponSword
+  healthBonus: 0
+  manaBonus: 0
+  damageBonus: 8
+  defenseBonus: 0
+  blockChanceBonus: 0
+  criticalChanceBonus: 0
+  modelPrefab: {fileID: 1980192593047840, guid: 250d22bc27b95f6418a96b360b4c5c8f,
+    type: 2}

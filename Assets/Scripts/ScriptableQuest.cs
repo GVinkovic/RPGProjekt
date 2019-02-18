@@ -12,7 +12,7 @@
 // game. All others will be ignored be Unity.)
 //
 // A Quest can be created by right clicking the Resources folder and selecting
-// Create -> uMMORPG Quest. Existing quests can be found in the Resources folder
+// Create -> Quest. Existing quests can be found in the Resources folder
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;

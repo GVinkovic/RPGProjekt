@@ -16,34 +16,11 @@
 //   - there will always be forbidden file names like 'COM', which will cause
 //     problems when people try to create accounts or characters with that name
 //
-// About item mall coins:
-//   The payment provider's callback should add new orders to the
-//   character_orders table. The server will then process them while the player
-//   is ingame. Don't try to modify 'coins' in the character table directly.
-//
 // Tools to open sqlite database files:
 //   Windows/OSX program: http://sqlitebrowser.org/
 //   Firefox extension: https://addons.mozilla.org/de/firefox/addon/sqlite-manager/
 //   Webhost: Adminer/PhpLiteAdmin
 //
-// About performance:
-// - It's recommended to only keep the SQlite connection open while it's used.
-//   MMO Servers use it all the time, so we keep it open all the time. This also
-//   allows us to use transactions easily, and it will make the transition to
-//   MYSQL easier.
-// - Transactions are definitely necessary:
-//   saving 100 players without transactions takes 3.6s
-//   saving 100 players with transactions takes    0.38s
-// - Using tr = conn.BeginTransaction() + tr.Commit() and passing it through all
-//   the functions is ultra complicated. We use a BEGIN + END queries instead.
-//
-// Some benchmarks:
-//   saving 100 players unoptimized: 4s
-//   saving 100 players always open connection + transactions: 3.6s
-//   saving 100 players always open connection + transactions + WAL: 3.6s
-//   saving 100 players in 1 'using tr = ...' transaction: 380ms
-//   saving 100 players in 1 BEGIN/END style transactions: 380ms
-//   saving 100 players with XML: 369ms
 //
 // Build notes:
 // - requires Player settings to be set to '.NET' instead of '.NET Subset',

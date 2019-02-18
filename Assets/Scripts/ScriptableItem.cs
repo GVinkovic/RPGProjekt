@@ -12,7 +12,7 @@
 //  those that are referenced in the game. All others will be ignored be Unity.)
 //
 // An Item can be created by right clicking the Resources folder and selecting
-// Create -> uMMORPG Item. Existing items can be found in the Resources folder.
+// Create ->  Item. Existing items can be found in the Resources folder.
 //
 // Note: this class is not abstract so we can create 'useless' items like recipe
 // ingredients, etc.
@@ -47,7 +47,6 @@ public partial class ScriptableItem : ScriptableObject
 
     Destroyable: {DESTROYABLE}
     Sellable: {SELLABLE}
-    Tradable: {TRADABLE}
 
     Amount: {AMOUNT}
     Price: {BUYPRICE} Gold

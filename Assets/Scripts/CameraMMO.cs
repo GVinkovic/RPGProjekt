@@ -1,5 +1,5 @@
-﻿// We developed a simple but useful MMORPG style camera. The player can zoom in
-// and out with the mouse wheel and rotate the camera around the hero by holding
+﻿
+// The player can zoom in and out with the mouse wheel and rotate the camera around the hero by holding
 // down the right mouse button.
 using UnityEngine;
 
@@ -26,7 +26,6 @@ public class CameraMMO : MonoBehaviour
 
     // view blocking
     // note: only works against objects with colliders.
-    //       uMMORPG has almost none by default for performance reasons
     // note: remember to disable the entity layers so the camera doesn't zoom in
     //       all the way when standing inside another entity
     public LayerMask viewBlockingLayers;

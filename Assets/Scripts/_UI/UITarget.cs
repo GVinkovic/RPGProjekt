@@ -24,7 +24,7 @@ public partial class UITarget : MonoBehaviour
         // => this is also great for skills that change the target while casting,
         //    e.g. a buff that is cast on 'self' even though we target an 'npc.
         //    this way the player doesn't see the target switching.
-        // => this is how most MMORPGs do it too.
+       
         Entity target = player.nextTarget ?? player.target;
         if (target != null && target != player)
         {
