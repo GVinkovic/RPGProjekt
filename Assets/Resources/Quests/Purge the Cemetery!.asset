@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5d7d970fd11164cb9b5802ee142afc, type: 3}
+  m_Name: Purge the Cemetery!
+  m_EditorClassIdentifier: 
+  toolTip: '<b>{NAME}</b>
+
+    Defeat {KILLTARGET}s
+
+    to stop skeletons from terrorizing the locals!
+
+
+    Tasks:
+
+    * Kill {KILLTARGET}: {KILLED}/{KILLAMOUNT}
+
+
+    Rewards:
+
+    * {REWARDGOLD} Gold
+
+    * {REWARDEXPERIENCE} Experience
+
+    * {REWARDITEM}
+
+
+    {STATUS}'
+  requiredLevel: 5
+  predecessor: {fileID: 11400000, guid: 410dc6a11dace9942a713580cd91fab3, type: 2}
+  rewardGold: 200
+  rewardExperience: 100
+  rewardItem: {fileID: 11400000, guid: bacd5a4bdc6cd8c4fb1a110fe6ed758f, type: 2}
+  killTarget: {fileID: 114378138597922518, guid: 20e27e6924146554c9f72a5afb358092,
+    type: 2}
+  killAmount: 1

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65cea399269bfc44af8e9f6a2c2881f, type: 3}
+  m_Name: Big Health Potion
+  m_EditorClassIdentifier: 
+  maxStack: 50
+  buyPrice: 20
+  sellPrice: 5
+  itemMallPrice: 0
+  sellable: 1
+  destroyable: 1
+  toolTip: '<b>{NAME}</b>
+
+    Restores some Health.
+
+
+    Restores {USAGEHEALTH} Health on use.
+
+    Destroyable: {DESTROYABLE}
+
+    Sellable: {SELLABLE}
+
+    Required Level: {MINLEVEL}
+
+
+    Amount: {AMOUNT}
+
+    Price: {BUYPRICE} Gold
+
+    <i>Sells for: {SELLPRICE} Gold</i>'
+  image: {fileID: 21300000, guid: 1a7928361b7544ff387a406824f639b0, type: 3}
+  minLevel: 2
+  cooldownBuff: {fileID: 11400000, guid: 88535c900a5f85649ba73f8377e1f471, type: 2}
+  usageHealth: 60
+  usageMana: 0
+  usageExperience: 0
+  usagePetHealth: 0

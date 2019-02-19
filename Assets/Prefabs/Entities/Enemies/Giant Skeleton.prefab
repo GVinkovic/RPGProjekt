@@ -1882,7 +1882,7 @@ MonoBehaviour:
   _state: IDLE
   level: 1
   _healthMax:
-    baseValue: 80
+    baseValue: 250
     bonusPerLevel: 0
   invincible: 0
   healthRecovery: 1
@@ -1897,10 +1897,10 @@ MonoBehaviour:
     baseValue: 1
     bonusPerLevel: 0
   _damage:
-    baseValue: 10
+    baseValue: 20
     bonusPerLevel: 0
   _defense:
-    baseValue: 2
+    baseValue: 5
     bonusPerLevel: 0
   _blockChance:
     baseValue: 0
@@ -1928,13 +1928,13 @@ MonoBehaviour:
   rewardExperience: 50
   rewardSkillExperience: 2
   lootGoldMin: 0
-  lootGoldMax: 10
+  lootGoldMax: 100
   dropChances:
   - item: {fileID: 11400000, guid: bacd5a4bdc6cd8c4fb1a110fe6ed758f, type: 2}
     probability: 0.75
-  deathTime: 30
+  deathTime: 60
   respawn: 1
-  respawnTime: 10
+  respawnTime: 30
 --- !u!114 &114423056683321946
 MonoBehaviour:
   m_ObjectHideFlags: 1

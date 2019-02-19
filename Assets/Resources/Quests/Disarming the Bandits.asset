@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a9aec4e79958d41a08200fdede880c, type: 3}
+  m_Name: Disarming the Bandits
+  m_EditorClassIdentifier: 
+  toolTip: '<b>{NAME}</b>
+
+    Weaken the local bandits by defeating the and taking their {GATHERITEM}s.
+
+
+    Tasks:
+
+    * Gather {GATHERITEM}: {GATHERED}/{GATHERAMOUNT}
+
+
+    Rewards:
+
+    * {REWARDGOLD} Gold
+
+    * {REWARDEXPERIENCE} Experience
+
+
+    {STATUS}'
+  requiredLevel: 2
+  predecessor: {fileID: 11400000, guid: 90da86fb5cfbdf34a99aedcf9c3a3659, type: 2}
+  rewardGold: 150
+  rewardExperience: 30
+  rewardItem: {fileID: 11400000, guid: bacd5a4bdc6cd8c4fb1a110fe6ed758f, type: 2}
+  gatherItem: {fileID: 11400000, guid: b7fce2cccf82e234b8256e41e133bf3c, type: 2}
+  gatherAmount: 3

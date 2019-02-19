@@ -1954,7 +1954,7 @@ MonoBehaviour:
   nameOverlay: {fileID: 0}
   stunnedOverlay: {fileID: 0}
   inSafeZone: 0
-  moveProbability: 0
+  moveProbability: 0.4
   moveDistance: 10
   followDistance: 20
   attackToMoveRangeRatio: 0.8

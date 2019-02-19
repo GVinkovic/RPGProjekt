@@ -2053,18 +2053,18 @@ MonoBehaviour:
   nameOverlay: {fileID: 0}
   stunnedOverlay: {fileID: 0}
   inSafeZone: 0
-  moveProbability: 0.2
+  moveProbability: 0.38
   moveDistance: 5
   followDistance: 10
   attackToMoveRangeRatio: 0.8
-  rewardExperience: 10
+  rewardExperience: 50
   rewardSkillExperience: 2
   lootGoldMin: 5
   lootGoldMax: 20
   dropChances:
   - item: {fileID: 11400000, guid: b7fce2cccf82e234b8256e41e133bf3c, type: 2}
-    probability: 0.5
-  - item: {fileID: 11400000, guid: bacd5a4bdc6cd8c4fb1a110fe6ed758f, type: 2}
+    probability: 1
+  - item: {fileID: 11400000, guid: 466397287bce3dc4d89592c31be98df1, type: 2}
     probability: 0.5
   - item: {fileID: 11400000, guid: c4c8334c48fe6354494bf41565c1eb6a, type: 2}
     probability: 0.5
